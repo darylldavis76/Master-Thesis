@@ -47,6 +47,13 @@ The following machine learning models were used for classification:
 
 Both models were fine-tuned using Grid Search CV to find the optimal hyperparameters for the classification task.
 
+## Repository Structure
+
+- ML_predictive_motor_maintenance.ipynb: The final version of the complete code
+- without_featWxtract_normAugmented.ipynb: The first version without feature extraction on the original sensor data. Includes data normalization and augmentation
+- with_featExtract_normAugmented.ipynb: The second version with feature extraction on the original sensor data. Includes data normalization and augmentation
+- README.md: Project overview and documentation.
+
 ## Results
 
 The trained models are capable of accurately classifying the operational state of the induction motor, identifying faults, and distinguishing between healthy and faulty conditions.
